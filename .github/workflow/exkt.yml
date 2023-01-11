@@ -1,0 +1,16 @@
+name: Export Solution
+on:
+  workflow_dispatch:
+    inputs:
+      solutionName:
+        description: Name of the sol
+        required: true
+      SolutionExportFolder:
+        description: Folder Name
+        requied: true
+     
+env: 
+   
+       
+  
+  
